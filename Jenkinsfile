@@ -14,7 +14,7 @@ pipeline {
         }
         stage('list files') {
             steps {
-                sh 'lsZ'
+                sh 'ls'
             }
         }
     }
